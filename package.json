@@ -1,10 +1,10 @@
 {
-    "name": "#{REPO_NAME}#",
+    "name": "a-module-that-uses-emotion",
     "version": "0.0.0",
-    "description": "#{DESC}#",
+    "description": "",
     "repository": {
         "type": "git",
-        "url": "git://github.com/#{USER_OR_ORG}#/#{REPO_NAME}#.git"
+        "url": "git://github.com/garronej/a-module-that-uses-emotion.git"
     },
     "scripts": {
         "build": "tsc",
@@ -36,7 +36,7 @@
             "pre-commit": "lint-staged -v"
         }
     },
-    "author": "u/#{USER_OR_ORG}#",
+    "author": "u/garronej",
     "license": "MIT",
     "files": [
         "src/",
