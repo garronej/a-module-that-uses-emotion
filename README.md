@@ -27,18 +27,18 @@
 # Install / Import
 
 ```bash
-$ npm install --save a-module-that-uses-emotion
+$ yarn add a-module-that-uses-emotion @emotion/react @emotion/styled @mui/material
 ```
 
 ```typescript
-import { myFunction, myObject, MyReactComponent } from "a-module-that-uses-emotion";
+import { css, useTheme } from "a-module-that-uses-emotion";
 ```
 
 Specific imports, only import what you need:
 
 ```typescript
-import { myFunction } from "a-module-that-uses-emotion/myFunction";
-import { myObject } from "a-module-that-uses-emotion/myObject";
+import { css } from "a-module-that-uses-emotion/i-export-css-from-emotion-react";
+import { useTheme } from "a-module-that-uses-emotion/i-export-useTheme-from-mui-material-styles";
 import MyReactComponent from "a-module-that-uses-emotion/MyReactComponent";
 ```
 
